@@ -9,8 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-methods R-waveslim R-fields R-boot R-CircStats 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-waveslim R-fields R-boot R-CircStats
+Requires:         R-methods R-waveslim R-fields R-boot R-CircStats
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-waveslim R-fields R-boot R-CircStats
 
 %description
 This package contains utilities for verification of discrete,continuous,
