@@ -1,14 +1,16 @@
 %global packname  verification
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          1.31
+Version:          1.35
 Release:          1
 Summary:          Forecast verification utilities
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/verification_1.35.tar.gz
 Requires:         R-methods R-waveslim R-fields R-boot R-CircStats
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-methods R-waveslim R-fields R-boot R-CircStats
