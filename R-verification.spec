@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          1.35
-Release:          1
+Release:          2
 Summary:          Forecast verification utilities
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
